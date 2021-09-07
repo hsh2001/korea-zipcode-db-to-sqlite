@@ -16,6 +16,18 @@ class Area {
 
   @Column('double')
   latitude!: number;
+
+  @Column('double', { default: 0 })
+  sinLongitude!: number;
+
+  @Column('double', { default: 0 })
+  cosLongitude!: number;
+
+  @Column('double', { default: 0 })
+  sinLatitude!: number;
+
+  @Column('double', { default: 0 })
+  cosLatitude!: number;
 }
 
 export default Area;
