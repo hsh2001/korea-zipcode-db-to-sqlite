@@ -35,7 +35,7 @@
     "singleQuote": true
   },
   "dependencies": {
-    "axios": "0.21.4",
+    "axios": "0.27.2",
     "sqlite3": "5.0.2",
     "typeorm": "0.2.37"
   }
